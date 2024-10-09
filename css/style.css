@@ -1,0 +1,607 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.red-color{
+    color: rgb(255, 0, 0);
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/*  banner section  */
+.banner{
+  height: 600px;
+  background:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png) no-repeat center / cover;
+  border: 1px solid rgba(0, 0, 0, 0.2),rgb(255, 255, 255);
+border-radius: 16px;
+
+
+  
+}
+.ban-text{
+    padding: 177px 344px 177px 344px;
+    text-align: center;
+}
+.banner .ban-text h3{
+ 
+    color: rgb(255, 255, 255);
+    font-family:" Merriweather";
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner .ban-text h1{
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather";
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+  
+    
+}
+/*  banner end  */
+/*  banner bottom section  */
+#banner-bottom{
+    padding-top: 120px;
+    
+
+}
+#banner-bottom .ban-category{
+  margin: auto;
+    width: 803px;
+
+}
+#banner-bottom .ban-category h1{
+color: rgb(255, 0, 0);
+font-family: "Inter";
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+#banner-bottom .ban-category h4{
+    color: rgb(255, 0, 0);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 48px;
+ 
+}
+#banner-bottom .ban-category h2{
+    color: rgb(7, 2, 17);
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 16px;
+
+
+}
+#banner-bottom .ban-category .ban-img{
+    padding-top: 48px;
+
+
+}
+/*  banner bottom end */
+#banner2{
+    padding-top: 120px;
+   
+}
+
+#banner2 .ban-mid{
+    height: 600px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Vectorrr.png) no-repeat center / cover;
+    border-radius: 16px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 67px;
+
+}
+#banner2 .ban-mid .ban-mid-left{
+ 
+width: 65%;
+padding-top: 126px;
+padding-left: 126px;
+padding-right: 20px;
+
+}
+#banner2 .ban-mid .ban-mid-left h2{
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather";
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    padding-right: 20px;
+
+}
+#banner2 .ban-mid .ban-mid-left p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 24px;
+
+}
+#banner2 .ban-mid .ban-mid-left h4{
+ color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+padding-top: 48px;
+padding-left: 32px;
+text-align: left;
+
+
+}
+#banner2 .ban-mid .ban-mid-right{
+width: 35%;
+padding-top: 68px;
+padding-right: 125px;
+padding-left: 20px;
+
+
+}
+#banner2 .ban-mid .ban-mid-right img{
+ 
+width: 100%;
+}
+
+/*  banner2 end */
+
+#hotel{
+    padding-top: 120px;
+}
+#hotel .hotel-part{
+    height: 482px;
+    border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+#hotel .hotel-part .hotel-text{
+    padding-top: 100px;
+}
+#hotel .hotel-part .hotel-text h4{
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+#hotel .hotel-part .hotel-text .btn-div{
+    text-align: center;
+    padding-top: 64px;
+}
+#hotel .hotel-part .hotel-text .btn-div .btn{
+color:rgb(255, 0, 0) ;
+font-family: "Inter";
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+
+border: 2px solid rgb(255, 0, 0);
+transition: 0.5s;
+
+}
+#hotel .hotel-part .hotel-text .btn-div .btn:hover{
+    background:rgb(255, 0, 0);  
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 0, 0);
+}
+/*  hotel end */
+#offer{
+    padding-top: 120px;
+}
+#offer .offer-main{
+    height: 463px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#offer .offer-main .offer-left{
+    width: 31%;
+}
+#offer .offer-main .offer-left h3{
+    color: rgb(255, 0, 0);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#offer .offer-main .offer-left h1{
+    color: rgb(7, 2, 17);
+font-family: "Merriweather";
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+padding-top: 16px;
+}
+#offer .offer-main .offer-left p{
+color: rgba(7, 2, 17, 0.6);
+font-family: "Inter";
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+padding-top: 22px;
+}
+#offer .offer-main .offer-mid{
+    
+    height: 463px;
+    width: 463px;
+    box-sizing: border-box;
+border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+#offer .offer-main .offer-mid .img{
+    padding: 30px;
+}
+#offer .offer-main .offer-mid img{
+width:100%;
+}
+
+#offer .offer-main .offer-right{
+    width: 20%;
+    padding-left: 118px;
+    padding-top: 105px;
+}
+#offer .offer-main .offer-right h1{
+color: rgb(255, 0, 0);
+font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+}
+#offer .offer-main .offer-right p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: "Inter";
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+padding-top: 16px;
+}
+#offer .offer-main .offer-right .of-right-img{
+    padding-top: 43px;
+}
+
+
+/*  offer end */
+
+#sale{
+    padding-top: 120px;
+    height: 986px;
+}
+#sale .sale-top{
+    text-align: center;
+}
+#sale .sale-top h4{
+    color: rgb(7, 2, 17);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+#sale .sale-top h1{
+    font-family: "Merriweather";
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 45px;
+}
+#sale .sale-top p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: "Inter";
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 28px;
+padding-left: 126px;
+padding-right: 126px;
+}
+
+#sale .sale-img{
+   
+   
+    position: relative;
+    bottom: -400px;
+   left: 0;
+  
+}
+#sale .sale-img img{
+    width: 100%;
+}
+#sale .sale-img .sale-main{
+    /* display: flex;
+    align-items: center;
+    flex-wrap: wrap; */
+  
+
+    position: absolute;
+    top: -350px;
+    left: 50px;
+    width: 70%;
+
+}
+#sale .sale-img .sale-main img{
+    width: 70%;
+   
+}
+#sale .sale-img .sale50{
+    position: absolute;
+    right: 0;
+    bottom: 250px;
+    width: 30%;
+}
+#sale .sale-img .sale50 img{
+    width: 70%;
+}
+/* #sale .sale-img .sale-left{
+widh: 50%;
+
+}
+#sale .sale-img .sale-left img{
+width: 100%;
+
+}
+#sale .sale-img .sale-left .pic{
+position: absolute;
+left: 0;
+bottom: 50px;
+
+
+}
+#sale .sale-img .sale-right{
+    width: 50%;
+} */
+
+/*  sale end */
+
+
+#gift{
+    padding-top: 120px;
+}
+#gift .gift-top{
+    
+}
+#gift .gift-top h4{
+    color: rgb(255, 0, 0);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+#gift .gift-top h2{
+    color: rgb(7, 2, 17);
+font-family: "Merriweather";
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+padding-top: 16px;
+}
+#gift .gift-top p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 22px;
+    padding-right: 424px;
+}
+#gift .gift-main{
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#gift .gift-main .gift-pic{
+    width: 32%;
+    margin: 7px;
+}
+#gift .gift-main .gift-pic img{
+    width: 100%;
+}
+/*  gift end */
+#subscribe{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#subscribe .subscribe-div{
+ height: 616px;
+ border-radius: 16px;
+
+background: rgba(255, 0, 0, 0.05);
+text-align: center;
+
+
+}
+#subscribe .subscribe-div .sub-img{
+    padding-top: 80px;
+}
+
+#subscribe .subscribe-div h1{
+    color: rgb(7, 2, 17);
+font-family: "Merriweather";
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+padding-top: 40px;
+}
+#subscribe .subscribe-div p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+    padding: 22px 212px 22px 212px;
+}
+#subscribe .subscribe-div .sub-input{
+position: relative;
+}
+#subscribe .subscribe-div .sub-input input{
+    height: 72px;
+    width: 648px;
+    border-radius:50px;
+    background-color: white;
+    border: none;
+}
+#subscribe .subscribe-div .sub-input input::placeholder{
+    color: rgba(7, 2, 17, 0.3);
+font-family: "Inter";
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+
+padding-top: 25px;
+padding-left: 30px;
+}
+#subscribe .subscribe-div .sub-input .sub-btn button{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+padding: 24px 56px 24px 56px;
+background-color: rgb(255, 0, 0);
+border: none;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+#subscribe .subscribe-div .sub-input .sub-btn{
+    position: absolute;
+    top: 0;
+    left: 775px;
+}
+/*  subscribe end */
+footer{
+    height: 500px;
+    background-color: rgb(7, 2, 17);
+    padding-top: 120px;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-top .footer-left{
+width: 50%;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-top .footer-left h3{
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-right: 240px;
+}
+.footer-top .footer-right{
+    width: 50%;
+    text-align: center;
+}
+.footer-top .footer-right span{
+color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+
+}
+.footer-top .footer-right span i{
+    
+font-size: 24px;
+color: white;
+padding-right: 10px;
+}
+.footer-mid{
+    padding-top: 49px;
+    
+}
+.footer-mid .fm-pic{
+   display: flex;
+   padding-top: 60px;
+   justify-content: center;
+   padding-bottom: 60px;
+    
+}
+.footer-mid .fm-pic i{
+  color: white;
+  font-size: 50px;
+  padding-right: 15px;
+}
+.footer-bottom{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom h3{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+
+}
